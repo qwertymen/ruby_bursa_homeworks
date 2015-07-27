@@ -1,0 +1,31 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$primaryColor: #e8e8e8;
+$contentColor: #ffffff;
+$framewidth: 800px;
+$fontDefault: verdana;
+
+body {
+  background: $primaryColor;
+  height: 100%;
+  font-family:$fontDefault
+}
+
+.content {
+  width:$framewidth; 
+  margin:0 auto;
+  background:$contentColor;
+  padding:40px;margin-top:30px
+}
+
+.username {font-family:$fontDefault;font-size:24px;}
+.userimage {border:2px solid #707070;}
+
+td {
+    vertical-align: top;
+    font-family:$fontDefault;
+    font-size:30px;
+}
+ul {list-style-type:none}
+.menuitem {color:#1464f6;font-size:32px;}
